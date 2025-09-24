@@ -15,12 +15,15 @@ public class VariableApp {
         System.out.println("I head something nice today, it was: " + niceMessage);
 
         System.out.println("=======================================");
+
         int daysInWeek = 7;
         double priceCoffee = 4.99;
         char favoriteLetter = 'N';
-        boolean isRaining = false;
+        boolean isRaining = true;
 
-        System.out.println("There are " + daysInWeek + " days in a week. The price of coffee is " + priceCoffee + ". My favorite letter is " + favoriteLetter + ". It would be " + isRaining + " in saying that it is currently raining.");
-
+        System.out.println("There are " + daysInWeek + " days in a week.");
+        System.out.println("The price of coffee is $" + priceCoffee + ".");
+        System.out.println("My favorite letter is " + favoriteLetter + ".");
+        System.out.println("Will it rain in 3 hours? " + isRaining + ".");
     }
 }
