@@ -11,7 +11,7 @@ public class VariableApp {
         System.out.println("My favorite color is " + favoriteColor + ".");
         System.out.println("I started this class during the year " + classYear + ".");
         System.out.println("My middle initial is " + middleInitial + ".");
-        System.out.println("It would be " + hasPets + " in saying that I have pets.");
+        System.out.println("Do you have pets? " + hasPets + ".");
         System.out.println("I head something nice today, it was: " + niceMessage);
 
         System.out.println("=======================================");
@@ -19,7 +19,7 @@ public class VariableApp {
         int daysInWeek = 7;
         double priceCoffee = 4.99;
         char favoriteLetter = 'N';
-        boolean isRaining = true;
+        boolean isRaining = false;
 
         System.out.println("There are " + daysInWeek + " days in a week.");
         System.out.println("The price of coffee is $" + priceCoffee + ".");
